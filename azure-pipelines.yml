@@ -18,5 +18,5 @@ steps:
 
 - script: |
     pip install -r requirements.txt
-    python3 -m app.py
+    python3 app.py
   displayName: 'Run a multi-line script'
