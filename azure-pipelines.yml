@@ -11,8 +11,6 @@ pool:
   demands:
   - agent.name -equals agent
 
-pool:
-  vmImage: ubuntu-latest
 
 steps:
 - script: echo Hello, Akza!
